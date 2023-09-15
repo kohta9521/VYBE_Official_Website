@@ -6,7 +6,11 @@ import './styles/Toppage.css'
 const Toppage = () => {
   return (
     <div className="toppage">
-      <h1>toppage title</h1>
+      <div className="container">
+        <div className="titleBox">
+          <h1 className="title">VYBE .</h1>
+        </div>
+      </div>
     </div>
   )
 }
