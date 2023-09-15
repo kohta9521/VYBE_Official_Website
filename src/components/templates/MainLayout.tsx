@@ -1,17 +1,10 @@
-import React from 'react';
+import React from 'react'
 
 // css import
-import './styles/MainLayout.css';
-
-// components import
-
+import './styles/MainLayout.css'
 
 const MainLayout = () => {
-  return (
-    <div className='main'>
-      hello
-    </div>
-  )
+  return <div className="main">hello</div>
 }
 
-export default MainLayout;
+export default MainLayout

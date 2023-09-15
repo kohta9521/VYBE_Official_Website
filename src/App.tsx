@@ -3,7 +3,11 @@ import './styles/App.css'
 import MainLayout from './components/templates/MainLayout'
 
 function App() {
-  return <div className="App"><MainLayout /></div>
+  return (
+    <div className="App">
+      <MainLayout />
+    </div>
+  )
 }
 
 export default App
