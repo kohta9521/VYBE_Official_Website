@@ -1,47 +1,70 @@
-# Getting Started with Create React App
+# Physics_Sim_Py
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Physics_Sim_Py" is a tutorial of physics simulations with Python.
 
-## Available Scripts
+# DEMO
 
-In the project directory, you can run:
+You can learn how to making cute physics simulations (looks retro game).
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This animation is a "Cat playing on trampoline"!
+You can get basic skills for making physics simulations.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Features
 
-### `npm test`
+Physics_Sim_Py used [pyxel](https://github.com/kitao/pyxel) only.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```python
+import pyxel
+```
+[Pyxel](https://github.com/kitao/pyxel) is a retro game engine for Python.
+You can feel free to enjoy making pixel art style physics simulations.
 
-### `npm run build`
+# Requirement
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Python 3.6.5
+* pyxel 1.0.2
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Environments under [Anaconda for Windows](https://www.anaconda.com/distribution/) is tested.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+conda create -n pyxel pip python=3.6 Anaconda
+activate pyxel
+```
 
-### `npm run eject`
+# Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Install Pyxel with pip command.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+pip install pyxel
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Usage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Please create python code named "demo.py".
+And copy &amp; paste [Day4 tutorial code](https://cpp-learning.com/pyxel_physical_sim4/).
 
-## Learn More
+Run "demo.py"
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+python demo.py
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# VYBE_Official_Website
+# Note
+
+I don't test environments under Linux and Mac.
+
+# Author
+
+* Hayabusa
+* R&D Center
+* Twitter : https://twitter.com/Cpp_Learning
+
+# License
+
+"Physics_Sim_Py" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+
+Enjoy making cute physics simulations!
+
+Thank you!
