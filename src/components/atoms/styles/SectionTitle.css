@@ -1,0 +1,32 @@
+.sectionTitle {
+  display: block;
+  width: 80%;
+  margin: 200px auto;
+  height: 200px;
+}
+
+/* props styling */
+.black {
+  color: black;
+}
+.green {
+  color: green;
+}
+.small {
+  font-size: 20px;
+}
+.medium {
+  font-size: 30px;
+}
+.large {
+  font-size: 40px;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
