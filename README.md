@@ -13,9 +13,11 @@ https://vybe-3c.my.canva.site/
 
 # Requirement
 
-* Python 3.6.5
-* pyxel 1.0.2
-
+* React  18.2.0
+* TypeScript  4.9.5
+* ESlint  8.49.0
+* Prettier  3.0.3
+* Husky  8.0.3
 
 # Installation
 
