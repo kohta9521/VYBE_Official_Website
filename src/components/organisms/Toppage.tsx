@@ -21,6 +21,9 @@ const Toppage = () => {
           <p className="boxtext">BE CASUAL</p>
         </div>
       </div>
+      <div className="scrolldown4">
+        <span>Scroll</span>
+      </div>
     </div>
   )
 }
