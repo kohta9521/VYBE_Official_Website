@@ -29,3 +29,66 @@
   font-size: 120px;
   color: #b3fd71;
 }
+
+@media screen and (max-width: 1280px) {
+  .title {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+/* scroll down bar styling */
+.scrolldown4 {
+  position: absolute;
+  bottom: 1%;
+  right: 50%;
+  animation: arrowmove 1s ease-in-out infinite;
+}
+
+@keyframes arrowmove {
+  0% {
+    bottom: 1%;
+  }
+  50% {
+    bottom: 3%;
+  }
+  100% {
+    bottom: 1%;
+  }
+}
+.scrolldown4 span {
+  position: absolute;
+  left: -20px;
+  bottom: 10px;
+  color: #eee;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
+
+.scrolldown4:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: -6px;
+  width: 1px;
+  height: 20px;
+  background: #eee;
+  transform: skewX(-31deg);
+}
+
+.scrolldown4:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1px;
+  height: 50px;
+  background: #eee;
+}
