@@ -10,6 +10,16 @@ const Toppage = () => {
         <div className="titleBox">
           <h1 className="title">VYBE .</h1>
         </div>
+        <div className="subBox">
+          <p className="subtitle">Sustainable</p>
+          <p className="subtitle">Community</p>
+          <p className="subtitle">for youth</p>
+        </div>
+        <div className="underBox">
+          <p className="boxtext">BE CLEAN,</p>
+          <p className="boxtext">BE COOL,</p>
+          <p className="boxtext">BE CASUAL</p>
+        </div>
       </div>
     </div>
   )
