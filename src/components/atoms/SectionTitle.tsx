@@ -1,4 +1,4 @@
-import React  from 'react'
+import React from 'react'
 
 // css import
 import './styles/SectionTitle.css'
@@ -6,15 +6,15 @@ import './styles/SectionTitle.css'
 // props type
 type Props = {
   // key用id
-  id: number,
+  id: number
   // 文字内容
-  text: string,
+  text: string
   // 文字色
-  color?: 'black' | 'green',
+  color?: 'black' | 'green'
   // 文字サイズ
-  size?: 'small' | 'medium' | 'large',
+  size?: 'small' | 'medium' | 'large'
   // 文字位置
-  align?: 'left' | 'center' | 'right',
+  align?: 'left' | 'center' | 'right'
 }
 
 const SectionTitle: React.FC<Props> = ({
