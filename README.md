@@ -1,14 +1,12 @@
-# Physics_Sim_Py
+# VYBE Official WebSite
 
-"Physics_Sim_Py" is a tutorial of physics simulations with Python.
+VYBE is BE CLEAN, BE BE COOL, BE CASUAL BE CASUAL, VYBE is an environmental issues community for young people. This repository is the official website of the community.
 
 # DEMO
 
-You can learn how to making cute physics simulations (looks retro game).
+The website can be accessed at the following link ↓
 
-
-This animation is a "Cat playing on trampoline"!
-You can get basic skills for making physics simulations.
+https://vybe-3c.my.canva.site/
 
 # Features
 
