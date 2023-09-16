@@ -1,6 +1,12 @@
 # VYBE Official WebSite
 
-VYBE is BE CLEAN, BE BE COOL, BE CASUAL BE CASUAL, VYBE is an environmental issues community for young people. This repository is the official website of the community.
+VYBE is 
+
+BE CLEAN,
+BE BE COOL, 
+BE CASUAL, 
+
+VYBE is an environmental issues community for young people. This repository is the official website of the community.
 
 # DEMO
 
