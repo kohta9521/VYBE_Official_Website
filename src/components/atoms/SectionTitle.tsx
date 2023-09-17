@@ -10,7 +10,7 @@ type Props = {
   // 文字内容
   text: string
   // 文字色
-  color?: 'black' | 'green'
+  color?: 'black' | 'green' | 'white'
   // 文字サイズ
   size?: 'small' | 'medium' | 'large'
   // 文字位置

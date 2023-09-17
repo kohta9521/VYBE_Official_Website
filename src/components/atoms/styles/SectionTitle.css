@@ -1,14 +1,8 @@
-.section1 {
-  width: 100%;
-  height: 1000px;
-  border-top: 3px solid red;
-}
-
 .sectionTitle {
   display: block;
   width: 80%;
-  margin: 200px auto;
-  height: 200px;
+  margin: 50px auto;
+  height: 100px;
 }
 
 /* props styling */
@@ -18,6 +12,9 @@
 .green {
   color: green;
 }
+.white {
+  color: white;
+}
 .small {
   font-size: 20px;
 }
@@ -25,7 +22,8 @@
   font-size: 30px;
 }
 .large {
-  font-size: 40px;
+  font-size: 50px;
+  line-height: 60px;
 }
 .left {
   text-align: left;
