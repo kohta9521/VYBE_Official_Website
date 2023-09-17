@@ -7,7 +7,11 @@ const Mission = () => {
   return (
     <div className="mission">
       <div className="mission__container">
-        <img className="mission__imgitem" src="/images/mission.png" alt="" />
+        <img
+          className="mission__img"
+          src="/images/mission.png"
+          alt="mission1革命画像"
+        />
         <div className="mission__textBox">
           <h2 className="mission__text">
             若者よ

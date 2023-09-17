@@ -9,12 +9,12 @@ import SectionTitle from '../atoms/SectionTitle'
 const Section1 = () => {
   return (
     <div className="section1">
-      <div className="container">
+      <div className="section1__container">
         <SectionTitle
           id={1}
           text="MISSION"
-          color="green"
-          size="medium"
+          color="white"
+          size="large"
           align="center"
         />
         <h2 className="section1__subtitle">世の環境意識を底上げる</h2>
