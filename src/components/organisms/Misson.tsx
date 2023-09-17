@@ -6,10 +6,10 @@ import './styles/Mission.css'
 const Mission = () => {
   return (
     <div className="mittion">
-      <div className="container">
-        <img className="imgitem" src="/images/mission.png" alt="" />
-        <div className="textBox">
-          <h2 className="text">
+      <div className="mission__container">
+        <img className="mission__imgitem" src="/images/mission.png" alt="" />
+        <div className="mission__textBox">
+          <h2 className="mission__text">
             若者よ
             <br />
             ゴミ拾いで
