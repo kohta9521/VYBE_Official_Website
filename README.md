@@ -12,6 +12,9 @@ VYBE is an environmental issues community for young people. This repository is t
 
 The website can be accessed at the following link ↓
 
+https://kohta9521.github.io/VYBE_Official_Website/
+
+
 https://vybe-3c.my.canva.site/
 
 # Features
