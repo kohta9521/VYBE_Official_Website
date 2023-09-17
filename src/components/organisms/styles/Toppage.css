@@ -2,8 +2,8 @@
   position: relative;
   z-index: 0;
   width: 100%;
-  height: 100vh;
-  padding: 80px;
+  height: 900px;
+  padding: 70px;
   box-sizing: border-box;
   background-image: url(../../../../public/images/hero.jpg);
   background-repeat: no-repeat;
@@ -60,13 +60,33 @@
 }
 
 @media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 768px) {
+  .toppage {
+    padding: 5px;
+    height: 100vh;
+  }
+  .container {
+    width: 95%;
+    margin: 9 auto;
+  }
+  .titleBox {
+    margin-top: 100px;
+  }
   .title {
     font-size: 60px;
   }
-}
-@media screen and (max-width: 768px) {
-  .title {
+  .subBox {
+    bottom: 230px;
+  }
+  .subtitle {
     font-size: 30px;
+    line-height: 40px;
+  }
+  .underBox {
+    left: calc(50% - 150px);
+    bottom: 100px;
+    width: 300px;
   }
 }
 
