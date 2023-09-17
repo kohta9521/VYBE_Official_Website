@@ -5,7 +5,7 @@ import './styles/Mission.css'
 
 const Mission = () => {
   return (
-    <div className="mittion">
+    <div className="mission">
       <div className="mission__container">
         <img className="mission__imgitem" src="/images/mission.png" alt="" />
         <div className="mission__textBox">
