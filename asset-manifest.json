@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/VYBE_Official_Website/static/css/main.20149db4.css",
-    "main.js": "/VYBE_Official_Website/static/js/main.6ea2c259.js",
+    "main.css": "/VYBE_Official_Website/static/css/main.a476340a.css",
+    "main.js": "/VYBE_Official_Website/static/js/main.10096c26.js",
     "static/media/hero.jpg": "/VYBE_Official_Website/static/media/hero.5af2ebcad38333c1ea24.jpg",
     "index.html": "/VYBE_Official_Website/index.html",
-    "main.20149db4.css.map": "/VYBE_Official_Website/static/css/main.20149db4.css.map",
-    "main.6ea2c259.js.map": "/VYBE_Official_Website/static/js/main.6ea2c259.js.map"
+    "main.a476340a.css.map": "/VYBE_Official_Website/static/css/main.a476340a.css.map",
+    "main.10096c26.js.map": "/VYBE_Official_Website/static/js/main.10096c26.js.map"
   },
   "entrypoints": [
-    "static/css/main.20149db4.css",
-    "static/js/main.6ea2c259.js"
+    "static/css/main.a476340a.css",
+    "static/js/main.10096c26.js"
   ]
 }
