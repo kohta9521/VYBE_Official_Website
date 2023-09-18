@@ -5,7 +5,7 @@
   height: 800px;
   padding: 100px;
   box-sizing: border-box;
-  background-image: url(../../../../public/images/section1.jpg);
+  /* background-image: url(../../../../public/images/section1.jpg); */
   background-repeat: no-repeat;
 }
 .section1:before {
