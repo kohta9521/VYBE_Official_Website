@@ -5,6 +5,7 @@ import './styles/MainLayout.css'
 import Toppage from '../organisms/Toppage'
 import Mission from '../organisms/Misson'
 import Section1 from '../organisms/Section1'
+import Section2 from '../organisms/Section2'
 
 const MainLayout = () => {
   return (
@@ -12,6 +13,7 @@ const MainLayout = () => {
       <Toppage />
       <Mission />
       <Section1 />
+      <Section2 />
     </div>
   )
 }
