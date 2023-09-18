@@ -13,6 +13,8 @@ type Props = {
   color?: 'black' | 'green' | 'white'
   // 文字サイズ
   size?: 'small' | 'medium' | 'large'
+  // 文字の太さ
+  weight?: 'tiny' | 'bold'
   // 文字位置
   align?: 'left' | 'center' | 'right'
 }
@@ -22,11 +24,14 @@ const SectionTitle: React.FC<Props> = ({
   text,
   color = 'black',
   size = 'medium',
+  weight = 'tiny',
   align = 'center',
 }) => {
   return (
     <div className={`sectionTitle ${[align]} `} key={id}>
-      <h1 className={`sectionTitleText ${[color]} ${[size]} `}>{text}</h1>
+      <h1 className={`sectionTitleText ${[color]} ${[size]} ${[weight]}`}>
+        {text}
+      </h1>
     </div>
   )
 }
