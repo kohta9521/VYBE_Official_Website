@@ -15,6 +15,7 @@ const Section1 = () => {
           text="MISSION"
           color="white"
           size="large"
+          weight="tiny"
           align="center"
         />
         <h2 className="section1__subtitle">世の環境意識を底上げる</h2>
